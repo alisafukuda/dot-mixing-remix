@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fluid Simulation</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #111;
+    }
+    canvas {
+      max-height: 100vh;
+      width: auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- sketch.js is Processing (Java-style) code, so it runs on Processing.js, not p5.js -->
+  <canvas data-processing-sources="sketch.js"></canvas>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.8/processing.min.js"></script>
+</body>
+</html>
